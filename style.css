@@ -1,0 +1,140 @@
+* {
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: rgb(173,172,172);
+}
+
+.parent{
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+header{
+  height: 100px;
+  background-color: gray;
+  display: flex;
+  justify-content: space-between;
+  margin: 30px;
+  align-items: center;
+  padding: 30px;
+}
+
+.header_logo{
+  color: wheat;
+  background-color: rgb(253, 17, 17);
+  font-size: large;
+  font-weight: bold;
+  padding: 20px;
+}
+
+.header_nav{
+  display: flex;
+  align-items: center;
+  gap: 30px;
+}
+
+.header_nav ul li{
+  color: wheat;
+  list-style: none;
+  background-color: rgb(12, 164, 121);
+  font-size: large;
+  font-weight: bold;
+  padding: 15px;
+}
+
+button{
+  color: white;
+  background-color: rgb(143, 15, 143);
+  height: 70px;
+  font-size: large;
+  font-weight: bold;
+}
+
+main{
+  margin: 30px;
+  gap: 100px;
+  display: flex;
+  flex-direction: column;
+}
+
+.section_1{
+  display: flex;
+  justify-content: space-between;
+}
+
+.main_box{
+  width: 1000px;
+  height: 500px;
+  background-color: peru;
+}
+
+.boxes{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.boxes .box{
+  width: 420px;
+  height: 80px;
+  background-color: white;
+}
+
+.section_2{
+  display: flex;
+  justify-content: space-between;
+}
+
+.box2{
+  width: 300px;
+  height: 300px;
+  background-color: rgb(248, 248, 20);
+}
+
+.section_3{
+  display: flex;
+  justify-content: space-between;
+}
+
+.box3{
+  width: 600px;
+  height: 500px;
+  background-color: aliceblue;
+}
+
+footer{
+  height: 400px;
+  margin: 30px;
+  background-color: rgb(22, 22, 246);
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.height_box{
+  width: 200px;
+  height: 300px;
+  background-color: rgb(186, 49, 49);
+}
+
+.opper_box{
+  width: 350px;
+  height: 150px;
+  background-color: rgb(186, 49, 49);
+}
+
+.average_box{
+  width: 200px;
+  height: 150px;
+  background-color: rgb(186, 49, 49);
+}
+
+.lower_box{
+  width: 200px;
+  height: 50px;
+  background-color: rgb(186, 49, 49);
+}
